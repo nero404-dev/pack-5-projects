@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Gym 1</title>
+    <link rel="stylesheet" href="gym_one.css">
+    <link rel="stylesheet" href="variables.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="pictures/">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="row-1">
+                <div class="logo">
+                    <a href="index.html"><img src="pictures/white-logo.png"></a>
+                </div>
+            </div>
+            <div class="row-2">
+                <div class="navbar">
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#schedule">Schedule</a></li>
+                        <li><a href="#trainers">Our Trainers</a></li>
+                        <li><a href="#location">Location</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.youtube.com"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </nav>
+        <div class="intro">
+            <div class="in-intro">
+                <h3>Are You Ready To</h3>
+                <h1>Get Fit, Strong & Motivated!</h1>
+            </div>
+        </div>
+    </header>
+
+    <header class="resp-header">
+        <nav class="resp-nav">
+            <div class="resp-logo">
+                <a href="index.html"><img src="pictures/white-logo.png"></a>
+            </div>
+            <div class="dashes">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+        </nav>
+        <div class="resp-intro">
+            <div class="resp-in-intro">
+                <div class="resp-title">
+                    <h3>Are You Ready To</h3>
+                    <h1>Get Fit, Strong & Motivated!</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            
+        <a href="#about">About Us</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#trainers">Our Trainers</a>
+        <a href="#location">Location</a>
+        <a href="#contact">Contact</a>
+
+        <hr id="resp-hr">
+
+        <div class="resp-social-links">
+            <a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+        </div>
+    </div>
+
+    <!-- main -->
+    <main>
+        <section class="about" id="about">
+            <div class="in-about">
+                <h2>About Us</h2>
+                <p>Welcome to <b>FitLife</b> Gym, where we believe in empowering individuals to achieve their fitness goals in a supportive and
+                    motivating environment. Our state-of-the-art facilities are equipped with the latest <u>fitness technology</u>, and our
+                    team of certified trainers is dedicated to providing <u>personalized training programs</u> tailored to your unique needs.
+                    Whether you're a beginner or an experienced athlete, we offer a variety of classes and resources to help you stay
+                    engaged and inspired. Join us on this journey toward a <b>healthier</b>, <b>stronger</b> you! </p>
+            </div>
+        </section>
+
+        <section class="schedule" id="schedule">
+            <div class="in-schedule">
+                <h2>Schedule</h2>
+                <div class="cats">
+                    <div class="cat">
+                        <div class="col nb">
+                            <p>01</p>
+                        </div>
+                        <div class="col training">
+                            <h3>Men</h3>
+                        </div>
+                        <div class="col between">
+                            <p> | </p>
+                        </div>
+                        <div class="col days">
+                            <p>Monday - Saturday</p>
+                        </div>
+                        <div class="col between">
+                            <p> | </p>
+                        </div>
+                        <div class="col time">
+                            <p>9:00 AM - 3:30 PM</p>
+                        </div>
+                        <div class="col btn">
+                            <a href="tel:+96176134251"><button>Book Training</button></a>
+                        </div>
+                    </div>
+
+                    <div class="cat">
+                        <div class="col nb">
+                            <p>02</p>
+                        </div>
+                        <div class="col training">
+                            <h3>Women</h3>
+                        </div>
+                        <div class="col between">
+                            <p> | </p>
+                        </div>
+                        <div class="col days">
+                            <p>Monday - Saturday</p>
+                        </div>
+                        <div class="col between">
+                            <p> | </p>
+                        </div>
+                        <div class="col time">
+                            <p>4:00 PM - 10:30 PM</p>
+                        </div>
+                        <div class="col btn">
+                            <a href="tel:+96176134251"><button>Book Training</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="trainers" id="trainers">
+            <div class="in-trainers">
+                <h2>Our Trainers</h2>
+                <div class="cats">
+                    <div class="cat">
+                        <div class="image">
+                            <img src="pictures/women-coach-1.jpg">
+                            <div class="overlay_from_left">
+                                <div class="text">Coach 3 <br><br>Women Coach</div>
+                            </div>
+                        </div>
+                        <h3>Coach 3 <br><br>Women Coach</h3>
+                    </div>
+
+                    <div class="cat">
+                        <div class="image">
+                            <img src="pictures/main-coach.jpg">
+                            <div class="overlay_from_up">
+                                <div class="text">Coach 1 <br><br>Main Coach</div>
+                            </div>
+                        </div>
+                        <h3 id="coach-1">Coach 1 <br><br>Main Coach</h3>
+                    </div>
+
+                    <div class="cat">
+                        <div class="image">
+                            <img src="pictures/men-coach-1.jpg">
+                            <div class="overlay_from_down">
+                                <div class="text">Coach 2 <br><br>Men Coach</div>
+                            </div>
+                        </div>
+                        <h3>Coach 2 <br><br>Men Coach</h3>
+                    </div>
+
+                    <div class="cat">
+                        <div class="image">
+                            <img src="pictures/men-coach-2.jpg">
+                            <div class="overlay_from_right">
+                                <div class="text">Coach 4 <br><br>Men Coach</div>
+                            </div>
+                        </div>
+                        <h3>Coach 4 <br><br>Men Coach</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="location" id="location">
+            <div class="in-location">
+                <h2>Location</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d849.2748219013542!2d35.44031203283344!3d33.370524118337215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDIyJzEzLjkiTiAzNcKwMjYnMjYuNiJF!5e1!3m2!1sen!2slb!4v1741228532801!5m2!1sen!2slb" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer id="contact">
+        <div class="row-1">
+            <div class="in-row-1">
+                <div class="col">
+                    <h3><i class="fa fa-angle-right" aria-hidden="true"></i> Navigation 
+                        <i class="fa fa-angle-double-up" aria-hidden="true"></i></h3>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#schedule">Schedule</a></li>
+                        <li><a href="#trainers">Our Trainers</a></li>
+                        <li><a href="#location">Location</a></li>
+                    </ul>
+                </div>
+
+                <div class="col contact">
+                    <h3><i class="fa fa-angle-right" aria-hidden="true"></i> Contact Us | Book Training</h3>
+                    <ul>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+96176134251">+961 76 134 251</a></li>
+                        <li><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:nero404.developer@gmail.com">nero404.developer@gmail.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3><i class="fa fa-angle-right" aria-hidden="true"></i> Message from Us</h3>
+                    <p>Be sure getting in-touch! Feel free to contact us on our cellular, email, social media.. And you're so
+                        welcome to visit our branch so you take an idea about the another world here inside. </p>
+                </div>
+
+                <div class="col social-links">
+                    <h3><i class="fa fa-angle-right" aria-hidden="true"></i> Social-Media Links</h3>
+                    <a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row-2">
+            <div class="in-row-2">
+                <p>Designed & Developed by "nero404" <br><i class="fa fa-copyright" aria-hidden="true"></i> 2025 | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- js resp nav -->
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "90%";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</body>
+</html>
